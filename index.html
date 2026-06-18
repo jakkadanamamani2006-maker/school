@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Annual Function Invitation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>🎉 School Annual Function 2026 🎉</h1>
+<p>You are Cordially Invited</p>
+</header>
+
+<section class="event-details">
+<h2>Function Details</h2>
+
+<div class="card">
+<p><strong>Date:</strong> 21/06/2026</p>
+<p><strong>Time:</strong> 9:00 AM</p>
+<p><strong>Venue:</strong> School Auditorium</p>
+<p><strong>Chief Guest:</strong> Dr. Ramesh Kumar</p>
+</div>
+</section>
+
+<section class="invite-form">
+
+<h2>Invite a Guest</h2>
+
+<input type="text" id="name" placeholder="Guest Name">
+
+<input type="tel" id="phone" placeholder="Phone Number">
+
+<button onclick="addGuest()">Add Guest</button>
+
+</section>
+
+<section>
+
+<h2>Invited Guests</h2>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Phone</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody id="guestList">
+</tbody>
+
+</table>
+
+</section>
+
+<section class="attendance">
+
+<h2>Attendance Registration</h2>
+
+<input type="text" id="attendee" placeholder="Enter Guest Name">
+
+<button onclick="markAttendance()">
+Mark Present
+</button>
+
+</section>
+
+<section>
+
+<h2>Attended Members</h2>
+
+<ul id="attendanceList"></ul>
+
+</section>
+
+<footer>
+<p>© 2026 School Annual Function Committee</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
